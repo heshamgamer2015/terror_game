@@ -1,0 +1,590 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.3f1 (7cdc2969a641) revision 8182825'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 24367 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Program Files (x86)/Games/Terror
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58918
+Successfully changed project path to: D:/Program Files (x86)/Games/Terror
+D:/Program Files (x86)/Games/Terror
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24912] Host "[IP] 192.168.0.121 [Port] 0 [Flags] 2 [Guid] 1172319963 [EditorId] 1172319963 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VVFAFDP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24912] Host "[IP] 192.168.0.121 [Port] 0 [Flags] 2 [Guid] 1172319963 [EditorId] 1172319963 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VVFAFDP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 13.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.3f1 (7cdc2969a641)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Games/Terror/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015573 seconds.
+- Loaded All Assemblies, in  0.491 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.269 seconds
+Domain Reload Profiling: 753ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (270ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Games\Terror\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Games\Terror\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.763 seconds
+Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 1237ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (246ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (480ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.6 KB). Loaded Objects now: 3543.
+Memory consumption went from 124.9 MB to 124.9 MB.
+Total: 5.387000 ms (FindLiveObjects: 0.410500 ms CreateObjectMapping: 0.275900 ms MarkObjects: 4.556900 ms  DeleteObjects: 0.142300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56729.266178 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(8cbe15d4de5b03f4e91fbd1dc8e0faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(8cbe15d4de5b03f4e91fbd1dc8e0faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890307dc366db5efc13f2423ed41c2f8') in 0.023788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 141.898185 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.933877 seconds.
+  path: Assets/Texture
+  artifactKey: Guid(ed5d825928e23ed4f8002dcbbad1bfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture using Guid(ed5d825928e23ed4f8002dcbbad1bfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8997c152b2d6e898d15386a9b779b0') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 124.869286 seconds.
+  path: Assets/Texture
+  artifactKey: Guid(d82805e7427d39642acd0e2b6d24bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture using Guid(d82805e7427d39642acd0e2b6d24bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58a8f692d27844b3c35524f5e173959') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026667 seconds.
+  path: Assets/Texture/TexturesCom_Pavement_Medieval_4K_albedo.tif
+  artifactKey: Guid(b9b345aa906decf41a9e26d4b987f60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/TexturesCom_Pavement_Medieval_4K_albedo.tif using Guid(b9b345aa906decf41a9e26d4b987f60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ded5eec591aae3520ac2030c8139fe6') in 0.046981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Texture/TexturesCom_Pavement_Medieval_4K_normal.tif
+  artifactKey: Guid(9d6671db13f3d3d40863af96fbc6b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/TexturesCom_Pavement_Medieval_4K_normal.tif using Guid(9d6671db13f3d3d40863af96fbc6b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f6f74412a09492cbbf4ac24aeaf136') in 0.013101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.080908 seconds.
+  path: Assets/Texture
+  artifactKey: Guid(e1ec6e2cc50e29f40b26798667042131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture using Guid(e1ec6e2cc50e29f40b26798667042131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a89e4116fcfb0374c2d3716fab3a2f2') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.443806 seconds.
+  path: Assets/Tesxtures
+  artifactKey: Guid(ad7564b41ea93174491877ddf2a45527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures using Guid(ad7564b41ea93174491877ddf2a45527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a511b7115cac29a9818b09a06225b0d6') in 0.000450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 136.950520 seconds.
+  path: Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_albedo.tif
+  artifactKey: Guid(62ab691639811cc48af78b2fccdcc298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_albedo.tif using Guid(62ab691639811cc48af78b2fccdcc298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a9623fd4c860e2c0d67abda72eaa09') in 0.012050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.192865 seconds.
+  path: Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_height.tif
+  artifactKey: Guid(06203b30f6bd0064fbaf2bc67c452a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_height.tif using Guid(06203b30f6bd0064fbaf2bc67c452a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0299d949d5aeddbe4a56caf4e6b14e0c') in 0.013159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.173658 seconds.
+  path: Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_normal.tif
+  artifactKey: Guid(598ddb8838873d5468399a1ecfa8aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_normal.tif using Guid(598ddb8838873d5468399a1ecfa8aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5fc835f24730eea183d8bfb436bf25') in 0.013286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.699323 seconds.
+  path: Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_roughness.tif
+  artifactKey: Guid(72a733860c19dbc4cb3867fea9aa5ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_roughness.tif using Guid(72a733860c19dbc4cb3867fea9aa5ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef025ad7c70364559f0b0b176a53b638') in 0.012282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.717083 seconds.
+  path: Assets/Tesxtures/Materials
+  artifactKey: Guid(58c868ac4ac56d04093a15d524551dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/Materials using Guid(58c868ac4ac56d04093a15d524551dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae44a74c7e0cd66f698bd14713c6f816') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.391926 seconds.
+  path: Assets/Tesxtures/Materials/TexturesCom_Pavement_Medieval_1K_albedo.mat
+  artifactKey: Guid(596fe9891b20862479b22cc99a99bdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/Materials/TexturesCom_Pavement_Medieval_1K_albedo.mat using Guid(596fe9891b20862479b22cc99a99bdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420f213f70e03a63daa76305e8a1b160') in 0.241441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 87.430402 seconds.
+  path: Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_ao.tif
+  artifactKey: Guid(09cd1dc7a906bf34a9528375c62bf197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Pavement_Medieval_1K_ao.tif using Guid(09cd1dc7a906bf34a9528375c62bf197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c83766f4a79b557e1d469117f887a7') in 0.011192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Games\Terror\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Games\Terror\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.724 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.799 seconds
+Domain Reload Profiling: 1517ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (195ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.6 MB). Loaded Objects now: 3944.
+Memory consumption went from 141.8 MB to 140.2 MB.
+Total: 3.585100 ms (FindLiveObjects: 0.285200 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.472600 ms  DeleteObjects: 0.728600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1626.844929 seconds.
+  path: Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_height.tif
+  artifactKey: Guid(ff9df0da944cdfe48a315da571751009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_height.tif using Guid(ff9df0da944cdfe48a315da571751009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec3fa395ab6798512ac75a1d23f6558') in 0.050413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.928303 seconds.
+  path: Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_height (1).tif
+  artifactKey: Guid(a50a631a1c60b544d8153da49e176fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_height (1).tif using Guid(a50a631a1c60b544d8153da49e176fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b45686435c270e95be03985ce6bc65') in 0.007239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.241338 seconds.
+  path: Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_ao.tif
+  artifactKey: Guid(3e2e95c3e4a41904b8fa8846e78bb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_ao.tif using Guid(3e2e95c3e4a41904b8fa8846e78bb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a750c48a41684e431cd4d579167ee06c') in 0.011531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.310357 seconds.
+  path: Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_normal.tif
+  artifactKey: Guid(a53fb2a4c3a6aa44694d007e8a2a0790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_normal.tif using Guid(a53fb2a4c3a6aa44694d007e8a2a0790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347bd1277f0d6c67d68d5b2565d23a44') in 0.012359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.235151 seconds.
+  path: Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_height (2).tif
+  artifactKey: Guid(1145bff1b6c9e10489f48ce36fcfad71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/TexturesCom_Wall_Stone3_2x2_2K_height (2).tif using Guid(1145bff1b6c9e10489f48ce36fcfad71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348d8f04d07a7012e5d27677d9d4064a') in 0.007493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.435206 seconds.
+  path: Assets/Tesxtures/Materials/TexturesCom_Wall_Stone3_2x2_2K_height.mat
+  artifactKey: Guid(0dd3fe3300cf2424691e4a5c9181fc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tesxtures/Materials/TexturesCom_Wall_Stone3_2x2_2K_height.mat using Guid(0dd3fe3300cf2424691e4a5c9181fc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b2e329b35ab43595fcd135019d474') in 0.177118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Games\Terror\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Games\Terror\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.714 seconds
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.802 seconds
+Domain Reload Profiling: 1511ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (213ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (802ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.3 MB). Loaded Objects now: 3958.
+Memory consumption went from 142.1 MB to 140.8 MB.
+Total: 3.483000 ms (FindLiveObjects: 0.266900 ms CreateObjectMapping: 0.203700 ms MarkObjects: 2.412100 ms  DeleteObjects: 0.599400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Games\Terror\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Games\Terror\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.3 MB). Loaded Objects now: 3961.
+Memory consumption went from 142.1 MB to 140.8 MB.
+Total: 4.196700 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.203100 ms MarkObjects: 3.018400 ms  DeleteObjects: 0.705300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 885.786254 seconds.
+  path: Assets/MazeGenerator/Materials
+  artifactKey: Guid(fd8a6da2e1ba3394fb27c91c9e2521a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator/Materials using Guid(fd8a6da2e1ba3394fb27c91c9e2521a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9c4177db6c0d006783727acc03dfb8') in 0.002504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.771618 seconds.
+  path: Assets/MazeGenerator/Prefabs
+  artifactKey: Guid(170cb53912cba614ebef8665f808b12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator/Prefabs using Guid(170cb53912cba614ebef8665f808b12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe68107c5ed9e01ccde8aad07c88359d') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062738 seconds.
+  path: Assets/MazeGenerator/Prefabs/BallPrefab.prefab
+  artifactKey: Guid(6414ea9cfa2ccc24a95c775ffa926968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator/Prefabs/BallPrefab.prefab using Guid(6414ea9cfa2ccc24a95c775ffa926968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0db40f18295fe42f5eba8fcc81463b4') in 0.178386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MazeGenerator/Prefabs/Floor.prefab
+  artifactKey: Guid(8d3b36f175a633f429d7bda54c76550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator/Prefabs/Floor.prefab using Guid(8d3b36f175a633f429d7bda54c76550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c180006f7479dd7cdbfec8a03883957') in 0.014961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MazeGenerator/Prefabs/WallPrefab.prefab
+  artifactKey: Guid(9de82ec743bb24449a99f5cf1e325d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator/Prefabs/WallPrefab.prefab using Guid(9de82ec743bb24449a99f5cf1e325d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eaf936c4428a0d41116de4a5c0f569') in 0.247104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.751607 seconds.
+  path: Assets/MazeGenerator/Textures/coin_tex.png
+  artifactKey: Guid(b7bb56c1945846044ac6a9b06f5332ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator/Textures/coin_tex.png using Guid(b7bb56c1945846044ac6a9b06f5332ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b362208e6dce0e0125d5ca0948da4d16') in 0.017798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.167460 seconds.
+  path: Assets/MazeGenerator/Sounds/Hit.wav
+  artifactKey: Guid(a5548be9a9e5a6d43adb6e184f7b96bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator/Sounds/Hit.wav using Guid(a5548be9a9e5a6d43adb6e184f7b96bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb849c6beab16937919e07d5b5ed672') in 0.025219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
