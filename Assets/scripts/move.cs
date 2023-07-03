@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class move : MonoBehaviour
 {
-    public float velocidade = 20.0f;
+    public float velocidade = 10.0f;
     public float rotationSpeed = 300.0f;
     private Animator anim;
     void Start()
