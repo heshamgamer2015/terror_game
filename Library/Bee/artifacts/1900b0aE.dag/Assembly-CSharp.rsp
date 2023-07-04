@@ -347,6 +347,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Low Poly Guns/Scripts/GunsMenu.cs"
+"Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/scripts/camera.cs"
 "Assets/scripts/colisaoparedes.cs"
 "Assets/scripts/inimigo.cs"
