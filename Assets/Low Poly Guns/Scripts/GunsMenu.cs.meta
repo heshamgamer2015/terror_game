@@ -9,3 +9,13 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
+=======
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192553
+  packageName: 'Guns Pack: Low Poly Guns Collection'
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Guns/Scripts/GunsMenu.cs
+  uploadId: 430093
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4

@@ -1,9 +1,28 @@
 fileFormatVersion: 2
 guid: 2cf10fa706c7a4d42b5927d8e730f4e2
+<<<<<<< HEAD
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
   externalObjects: {}
+=======
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192553
+  packageName: 'Guns Pack: Low Poly Guns Collection'
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Guns/Models/Guns/smg1/smg1.fbx
+  uploadId: 430093
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smg1
+    second: {fileID: 2100000, guid: bb553079f2fa4c042a8d012f3ab76c75, type: 2}
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
   materials:
     materialImportMode: 1
     materialName: 0
@@ -14,9 +33,14 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+<<<<<<< HEAD
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
+=======
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -39,27 +63,52 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+<<<<<<< HEAD
+=======
+    importPhysicalCameras: 1
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+<<<<<<< HEAD
+=======
+    nodeNameCollisionStrategy: 0
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+<<<<<<< HEAD
+=======
+    bakeAxisConversion: 0
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+<<<<<<< HEAD
+=======
+    optimizeBones: 1
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+<<<<<<< HEAD
     secondaryUVPackMargin: 4
     useFileScale: 1
+=======
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -91,6 +140,12 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
+<<<<<<< HEAD
+=======
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
   additionalBone: 0
   userData: 
   assetBundleName: 

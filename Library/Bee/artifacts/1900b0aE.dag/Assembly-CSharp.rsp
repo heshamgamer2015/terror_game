@@ -351,8 +351,10 @@
 "Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/scripts/camera.cs"
 "Assets/scripts/colisaoparedes.cs"
+"Assets/scripts/GunAmmo.cs"
 "Assets/scripts/inimigo.cs"
 "Assets/scripts/move.cs"
+"Assets/scripts/playerController.cs"
 -langversion:9.0
 
 /deterministic

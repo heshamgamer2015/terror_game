@@ -7,6 +7,7 @@ TagManager:
   - Coin
   - Floor
   - paredes
+  - Enemy
   layers:
   - Default
   - TransparentFX

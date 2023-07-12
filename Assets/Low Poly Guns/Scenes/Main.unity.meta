@@ -1,7 +1,21 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d9272fe1a94018e42a7e488bc04e0c84
+=======
+guid: 8fdf4e4f5b087c341bc86eceda874f0d
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
+=======
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192553
+  packageName: 'Guns Pack: Low Poly Guns Collection'
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Guns/Scenes/Main.unity
+  uploadId: 430093
+>>>>>>> 133aae2332d3960f2e5eba062878527e0eecd8e4
